@@ -2330,3 +2330,19 @@ blockquote {
 
 
 
+.centered-image-container {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-details{
+    position: relative;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
