@@ -1648,11 +1648,6 @@ h6 {
     flex-direction: column;
 }
 
-ul {
-    padding-left: 20px;
-    list-style-type: disc
-}
-
 
 .container {
     width: 100%;
@@ -1666,6 +1661,10 @@ ul {
     vertical-align: top
 }
 
+.container .content-col {
+    padding-top: 2%;
+}
+
 .container-right-img .img-col {
     width: 70%;
     float: right
@@ -1673,7 +1672,8 @@ ul {
 
 .container-right-img .content-col {
     width: 20%;
-    float: left
+    float: left;
+    padding-left: 4%;
 }
 
 .container-left-img .img-col {
@@ -1685,9 +1685,3 @@ ul {
     width: 60%;
     float: right
 }
-
-img {
-    width: 100%;
-    height: auto
-}
-
